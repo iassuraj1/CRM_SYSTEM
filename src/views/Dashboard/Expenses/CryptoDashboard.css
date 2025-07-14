@@ -1,0 +1,63 @@
+.dashboard {
+  padding: 20px 30px;
+  background-color: #f4f6fa;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.dashboard-header-icon {
+  font-size: 40px;
+  background-color: #e6f0ff;
+  padding: 14px;
+  border-radius: 12px;
+  margin-right: 15px;
+}
+
+.dashboard-header-text {
+  flex-grow: 1;
+}
+
+.dashboard-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 0;
+  color: #2d2d2d;
+}
+
+.dashboard-subtitle {
+  font-size: 14px;
+  color: #777;
+  margin-top: 4px;
+}
+
+.export-btn {
+  background-color: #1976d2;
+  color: #fff;
+  padding: 10px 18px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.dashboard-body {
+  display: flex;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+.dashboard-content {
+  display: flex;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+  padding: 25px;
+  gap: 30px;
+}
