@@ -16,6 +16,8 @@ import NavigationScroll from './NavigationScroll';
 
 const App = () => {
   const customization = useSelector((state) => state.customization);
+ console.log("✅ App component loaded");
+
 
   return (
     <>

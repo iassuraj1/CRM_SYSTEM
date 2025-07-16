@@ -9,6 +9,9 @@ import ChromeReaderModeOutlinedIcon from '@mui/icons-material/ChromeReaderModeOu
 import SecurityOutlinedIcon from '@mui/icons-material/SecurityOutlined';
 import HelpOutlineOutlinedIcon from '@mui/icons-material/HelpOutlineOutlined';
 
+import BarChartOutlinedIcon from '@mui/icons-material/BarChartOutlined';
+
+
 const icons = {
   NavigationOutlinedIcon: NavigationOutlinedIcon,
   HomeOutlinedIcon: HomeOutlinedIcon,
@@ -18,7 +21,8 @@ const icons = {
   AccountTreeOutlinedIcon: AccountTreeOutlinedIcon,
   BlockOutlinedIcon: BlockOutlinedIcon,
   AppsOutlinedIcon: AppsOutlinedIcon,
-  ContactSupportOutlinedIcon: ContactSupportOutlinedIcon
+  ContactSupportOutlinedIcon: ContactSupportOutlinedIcon,
+    BarChartOutlinedIcon: BarChartOutlinedIcon,
 };
 
 // ==============================|| MENU ITEMS ||============================== //
@@ -60,13 +64,21 @@ export default {
         url: '/dashboard/monitoring',
         icon: icons['SomeMonitoringIcon']
       },
-         {
+
+      {
       id: 'expenses',
       title: 'Expenses',
       type: 'item',
       url: '/dashboard/expenses',
       icon: icons['AccountBalanceWalletOutlinedIcon'] // You can change this
     },
+    {
+        id: 'statistics',
+        title: 'Statistics',
+        type: 'item',
+        url: '/dashboard/statistics',
+        icon: icons['BarChartOutlinedIcon']
+      }
 
 
     ]

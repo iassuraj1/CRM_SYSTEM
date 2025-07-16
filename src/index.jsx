@@ -1,7 +1,7 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 // import { BrowserRouter } from 'react-router-dom';
-import { HashRouter } from 'react-router-dom';
+import { BrowserRouter } from 'react-router-dom';
 
 // assets
 import 'assets/scss/style.scss';
@@ -23,9 +23,9 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
   <Provider store={store}>
-    <HashRouter basename={import.meta.env.VITE_APP_BASE_NAME}>
+    <BrowserRouter basename={import.meta.env.VITE_APP_BASE_NAME}>
       <App />
-    </HashRouter>
+    </BrowserRouter>
   </Provider>
 );
 

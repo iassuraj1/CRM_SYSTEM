@@ -52,6 +52,7 @@ const DashboardDefault = Loadable(lazy(() => import('views/Dashboard/Default')))
 const UtilsTypography = Loadable(lazy(() => import('views/Utils/Typography')));
 const SamplePage = Loadable(lazy(() => import('views/SamplePage')));
 const Monitoring = Loadable(lazy(() => import('views/Dashboard/Monitoring/Monitoring')));
+const Statistics = Loadable(lazy(() => import('views/Dashboard/Statistics/Statistics')));
 
 // ==============================|| MAIN ROUTES ||============================== //
 
@@ -85,6 +86,10 @@ const MainRoutes = {
     {
       path: '/sample-page',
       element: <SamplePage />
+    },
+    {
+      path: '/dashboard/statistics',   // ✅ New Statistics Route
+      element: <Statistics />
     },
     
 
